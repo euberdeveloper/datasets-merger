@@ -4,7 +4,7 @@ const yargs = require('yargs');
 const mergeDatasets = require('../lib');
 
 yargs
-.scriptName('burundu')
+.scriptName('ds-merger')
 .command(
     'merge', 
     'Merges two or more datasets',
