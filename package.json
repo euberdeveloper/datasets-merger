@@ -1,0 +1,36 @@
+{
+  "name": "datasets-merger",
+  "version": "1.0.0",
+  "description": "An npm package to quickly merge datasets for machine learning.",
+  "main": "lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "bin": {
+    "ds-merger": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugenio Vinicio Berretta <euberdeveloper@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euberdeveloper/datasets-merger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/euberdeveloper/datasets-merger/issues"
+  },
+  "homepage": "https://github.com/euberdeveloper/datasets-merger",
+  "keywords": [
+    "datasets-merger",
+    "datasets",
+    "merge",
+    "machine learning",
+    "ai",
+    "graphic",
+    "images"
+  ],
+  "dependencies": {
+    "dree": "^2.4.16",
+    "yargs": "^16.0.3"
+  }
+}
