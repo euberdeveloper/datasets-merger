@@ -1,9 +1,9 @@
 {
   "name": "datasets-merger",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An npm package to quickly merge datasets for machine learning.",
   "main": "lib/index.js",
-  "types": "dist/lib/index.d.ts",
+  "types": "lib/index.d.ts",
   "bin": {
     "ds-merger": "bin/index.js"
   },
